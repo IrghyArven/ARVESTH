@@ -1,6 +1,9 @@
 name: ARVESTH FOSS Debug
 
 on:
+  push:
+    branches:
+      - arvesth/branding
   workflow_dispatch:
 
 permissions:
